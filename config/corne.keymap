@@ -16,7 +16,9 @@
 #define SYM     5
 #define FUN     6
 
-
+&lt: {
+    tapping-term-ms = <250>;
+};
 
 
 / {
@@ -31,9 +33,6 @@
             bindings = <&kp>, <&kp>;
         }; 
         
-        lt: {
-    tapping-term-ms = <250>;
-        };
     };
         
         keymap {

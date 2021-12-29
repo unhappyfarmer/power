@@ -80,7 +80,7 @@
    &trans  &trans    &trans    &trans     &trans      &trans         &trans   &trans     &trans    &trans    &trans    &trans
    &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans         &trans   &trans     &trans    &trans    &trans    &trans
    &trans  &trans    &trans    &trans     &trans      &trans         &trans   &trans     &trans    &trans    &trans    &trans
-                               &trans     &trans      &trans         &trans   &kp BKSP   &kp DEL
+                               &trans     &trans      &trans         &kp RET  &kp BKSP   &kp DEL
                         >;
                 };
                 

@@ -16,6 +16,11 @@
 #define SYM     5
 #define FUN     6
 
+lt: {
+    tapping-term-ms = <250>;
+        
+};
+
 
 / {
     behaviors {
@@ -28,10 +33,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };       
-        lt: {
-        tapping-term-ms = <250>;
-        
-        };
     };
         
         keymap {

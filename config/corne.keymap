@@ -31,7 +31,7 @@
             bindings = <&kp>, <&kp>;
         };
         
-        &lt: {
+        lt: {
     tapping-term-ms = <250>;
         };
         
@@ -50,7 +50,7 @@
    &trans &kp Q &kp W      &kp F      &kp P       &kp B          &kp J        &kp L        &kp U       &kp Y       &kp APOS  &trans
    &trans &kp A &hm LGUI R &hm LALT S &hm LCTRL T &hm LSHIFT G   &hm LSHIFT M &hm LCTRL N  &hm LALT E  &hm LGUI I  &kp O     &trans
    &trans &kp Z &kp X      &kp C      &kp D       &kp V          &kp K        &kp H        &kp COMMA   &kp DOT     &kp FSLH  &trans
-                  &lt MEDIA ESC  &lt NAV TAB  &lt MOUSE SPACE    &lt SYM RET    &lt NUM BKSP   &lt FUN DEL
+                  &lt 3 ESC  &lt 1 TAB  &lt 2 SPACE    &lt 5 RET    &lt 4 BKSP   &lt 6 DEL
                         >;
                 };
                 

@@ -45,10 +45,10 @@
 // | TRANS|  Z  |    X    |    C    |     D    |    V    |   |    K    |     H     |    ,    |    .    |  /  | TRANS|
 //                        |  ESC/3  |   TAB/1  |  SPC/2  |   |  ENT/5  |   BKSP/4  |  DEL/6  |
                         bindings = <
-   &trans &kp Q &kp W      &kp F      &kp P       &kp B          &kp J        &kp L        &kp U       &kp Y       &kp APOS  &trans
-   &trans &kp A &hm LGUI R &hm LALT S &hm LCTRL T &hm LSHIFT G   &hm LSHIFT M &hm LCTRL N  &hm LALT E  &hm LGUI I  &kp O     &trans
-   &trans &kp Z &kp X      &kp C      &kp D       &kp V          &kp K        &kp H        &kp COMMA   &kp DOT     &kp FSLH  &trans
-                            &lt 3 ESC  &lt 1 TAB  &lt 2 SPACE    &lt 5 RET    &lt 4 BKSP   &lt 6 DEL
+   &trans &kp Q       &kp W      &kp F       &kp P        &kp B   &kp J  &kp L        &kp U       &kp Y      &kp APOS   &trans
+   &trans &hm LGUI A  &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G   &kp M  &hm LSHIFT N &hm LCTRL E &hm LALT I &hm LGUI O &trans
+   &trans &kp Z       &kp X      &kp C       &kp D        &kp V   &kp K  &kp H        &kp COMMA   &kp DOT    &kp FSLH   &trans
+                            &lt 3 ESC  &lt 1 TAB  &lt 2 SPACE     &lt 5 RET  &lt 4 BKSP   &lt 6 DEL
                         >;
                 };
                 

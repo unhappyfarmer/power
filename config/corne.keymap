@@ -29,7 +29,12 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-        }; 
+        };
+        
+        lt: {
+            tapping-term-ms = <250>;
+        };
+        
     };
         
         keymap {

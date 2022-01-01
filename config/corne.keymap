@@ -68,14 +68,14 @@
 
                 MOUSE_layer {
 // -----------------------------------------------------------------------------------------
-// | TRANS | TRANS | TRANS | TRANS | TRANS | TRANS |   | TRANS |  TRANS  |  TRANS  |  TRANS  |  TRANS  | TRANS |
+// | TRANS | TRANS | TRANS | TRANS | TRANS | TRANS |   | TRANS |  BT NXT | BT PREV | BT CLR  |  TRANS  | TRANS |
 // | TRANS | LGUI  |  LALT | LCTRL | LSFT  | TRANS |   | TRANS |  MSLFT  |  MSDWN  |   MSUP  |  MSRGT  | TRANS |
 // | TRANS | TRANS | TRANS | TRANS | TRANS | TRANS |   | TRANS |  WHLLFT |  WHLDWN |  WHLUP  |  WHLRGT | TRANS |
 //                         | TRANS | TRANS | TRANS |   |  ENT  |   BKSP  |   DEL   |
                         bindings = <
-   &trans  &trans    &trans    &trans     &trans      &trans         &trans   &trans     &trans    &trans    &trans    &trans
-   &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans         &trans   &trans     &trans    &trans    &trans    &trans
-   &trans  &trans    &trans    &trans     &trans      &trans         &trans   &trans     &trans    &trans    &trans    &trans
+   &trans  &trans    &trans    &trans     &trans      &trans         &trans   &bt BT_NXT &bt BT_PREV &bt BT_CLR &trans    &trans
+   &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans         &trans   &trans     &trans      &trans     &trans    &trans
+   &trans  &trans    &trans    &trans     &trans      &trans         &trans   &trans     &trans      &trans     &trans    &trans
                                &trans     &trans      &trans         &kp RET  &kp BKSP   &kp DEL
                         >;
                 };
